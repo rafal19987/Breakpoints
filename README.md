@@ -1,7 +1,7 @@
 
 ## Breakpointy w mapie
 
-``` js
+``` scss
 
 //  Tworzymy mapę, w której określamy nazwy i przyporządkowujemy im wartości
 $breakpoints: (
