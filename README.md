@@ -38,3 +38,17 @@ $size: map-get($breakpoints, $breakpoint);
 }
 ```
 
+## Co to jest lazy loading:
+
+Lazy loading grafik to późnienie wczytywania zasobów do momentu, w którym
+rzeczywiście będą one potrzebne. W praktyce grafiki będą wczytywane dopiero
+wtedy, kiedy mogą być potrzebne, czyli przede wszystkim wtedy gdy obszar
+viewportu znajdzie się blisko danego obrazu.
+
+Korzyść? Nie zapychamy łącza i zasobów użytkownika (i własnego serwera) póki
+nie jest to potrzebne. Być może nigdy nie będzie, bo użytkownik nie przewinie
+strony do miejsca gdzie grafika jest potrzebna, po co więc wczytywać wszystko.
+
+Lazy loading najczęściej rozwiązywany jest poprzez JavaScript, ale możemy też
+od niedawna (31.07.2019) korzytać z natywnego wsparcia przeglądarek (póki co
+Chrome) dla lazy loadingu.
