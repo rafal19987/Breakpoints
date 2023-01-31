@@ -1,8 +1,9 @@
 
+
+
 ## Breakpointy w mapie
 
 ``` scss
-
 //  Tworzymy mapę, w której określamy nazwy i przyporządkowujemy im wartości
 $breakpoints: (
   smartphone: (min-width: 460px),
@@ -13,7 +14,6 @@ $breakpoints: (
   desktop-medium: (min-width: 1600px),
   desktop-large: (min-width: 1900px),
 );
-
 ```
 
 ## Media Queries - deklaracja domieszki
